@@ -13,7 +13,6 @@ void print_process_info(void) /* Печать процессов */
 
     for_each_process(task_list) {
         pr_info("%d: %s\n", task_list->pid, task_list->comm);
-        printf(123);
     }
 }
 
